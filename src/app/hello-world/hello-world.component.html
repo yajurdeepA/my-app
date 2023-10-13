@@ -1,0 +1,12 @@
+<h2>{{message}}</h2>
+    <p>This is my first component!</p>
+    <div>
+        <button type="button" [disabled]="!canclick" (click) = "sayMessage()">Trigger Alert Message</button> 
+        <p
+            [id] = "sayHelloId"
+            [style.color] = "fontColor"
+            >
+         Color set up from component    
+        </p>
+        
+    </div>
